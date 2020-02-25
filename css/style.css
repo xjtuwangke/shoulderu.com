@@ -76,7 +76,7 @@ p{margin-bottom:0.416rem}
 .banner_info p:nth-child(2){font-size:1.4rem; color:#252525}
 .banner_info i{color:#b5262c; font-style: normal}
 .banner_info .keywords{font-size:2rem; color:#b5262c; margin-bottom:1.25rem; max-width: 28vw; font-weight: bold;}
-.banner_info .keywords .swiper-slide{width:28vw!important}
+.banner_info .keywords .swiper-slide{width:28vw}
 .banner_info .morebtn{width:6.67rem; height:2.17rem; line-height: 2.17rem; text-align: center; background: #b5262c}
 .banner_info .morebtn a{color:#fff; font-size:1rem;  display: block}
 
@@ -212,14 +212,14 @@ p{margin-bottom:0.416rem}
 .otherpage .box .center_block:nth-child(8){position: absolute; top:68.75vw; right:0; height:13.5rem;}
 .block_padding{ padding:2rem; padding-top:2rem}
 .linkbox{font-size:1.2rem;}
-.linkbox .pull-left a{color:#000;}
-.linkbox .pull-right a{color:#b72c32;}
+.linkbox a{color:#000;}
+.linkbox a:hover{color:#b72c32;}
 .block_small{ font-size:0.85rem!important;}
 .block_img img{height:100%;}
 .block_img2{position: relative}
 .block_img2 img{position: absolute; right:0; top:50%; transform:translate(0,-50%); max-height: 100%; max-width: 100%;}
 
-.aboutus .aboutbox{padding:3.5rem 2.5rem 0 2.5rem!important; border:1px solid #3c3c3c; height:100%;}
+.aboutus .aboutbox{padding:3.5rem 2.5rem 0 2.5rem!important; border:1px solid #3c3c3c; height:100%; background: #fff;}
 .aboutus .aboutbox p{color:#3c3c3c; font-size:1rem; margin-bottom:.8rem;}
 .aboutus .aboutbox p:nth-child(1) {  font-size: 2.4rem;  color: #000;  font-weight: bold;  letter-spacing: 1px;  }
 .aboutus .aboutbox .top {  position: relative;  padding-bottom: 0.83rem;  margin-bottom: 1.83rem;  }
@@ -289,6 +289,7 @@ p{margin-bottom:0.416rem}
     .story_info{width:90%;}
     .story_box .story_half:nth-child(2){margin-left:5%;float:inherit}
     .tutor_box ul li{width:50%; flex: 0 1 50%}
+    .tutor_box ul li .infomore_box{padding:5vw;}
     .intro{position: relative}
     .intro .banner{height:auto!important}
     .case .banner_box{box-shadow:none;-webkit-box-shadow:none;}
@@ -323,6 +324,7 @@ p{margin-bottom:0.416rem}
 @media only screen and (max-width: 500px)
 {
     .tutor_box ul li{width:100%; flex: 0 1 100%}
+    .tutor_box ul li .infomore_box{padding:10vw;}
     .banner_info p:nth-child(1){font-size:2.0rem}
     .footer_top .row [class^="col-"]{padding:0 10px}
 
